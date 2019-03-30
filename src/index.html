@@ -4,24 +4,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <title>Mujeres en la Historia</title>
-    <script src="main.js"></script>
-    <script src="./data/datosmujeres.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <title>Femstory</title>
   </head>
   <body>
-    <h1>Bienvenidos a HistoryFem</h1>
-    <section id="content">
-      <!-- Aqui tendria que aparecer la informacion de las mujeres -->
-    </section>
+    <header>
+      <img class="headerLogo homeBtn" alt="home_logo.png"
+       src="http://drive.google.com/uc?export=view&id=15n22pSMafRcXVJs0mV2OAROeHHdxABLW">
+       <input type="search" id="searchBar" name="q">
+       <button class="searchBtn btn"><i class="fas fa-search" id="searchBtn"></i></button>
+    </header>
 
+    <nav>
+      <ul>
+        <li><a href="#" id="timeBtn btn">Tiempo</a></li>
+        <li><a href="#" id="professionBtn btn">Profesiones</a></li>
+        <li><a href="#" id="countryBtn btn">Países</a></li>
+        <li><a href="#" id="gameBtn btn">Juegos</a></li>
+    </nav>
 
+    <content>
+      <section class="generalBlock introBlock" id="introBlock"></section>
 
-  <button id= "prueba">prueba</button>
-    <header></header>
-    <footer></footer>
-    
-    
-    
-    
+      <section class="generalBlock timeBlock" id="timeBlock"></section>
+
+      <section class="generalBlock professionBlock" id="professionBlock"></section>
+
+      <section class="generalBlock countryBlock" id="countryBlock"></section>
+
+      <section class="generalBlock gameBlock" id="gameBlock"></section>
+
+    </content>
+
+    <!-- <button id= "prueba">prueba</button> -->
+    <footer class="footText">© 2019 Las chimichangas (Adrea Díaz, KAren Garzón y
+      Nancy Rodríguez), Ilustraciones por <a class="infoLink"
+      href="https://www.behance.net/andreayanezh">Andrea Yáñez</a></footer>
+
+    <script src="main.js"></script>
+    <script src="./data/datosmujeres.js"></script>
+
   </body>
 </html>
